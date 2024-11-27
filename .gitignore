@@ -1,0 +1,10 @@
+# Игнорировать папку node_modules
+node_modules/
+
+# Игнорировать файлы PnP
+.pnp.loader.mjs
+.pnp.cjs
+
+# Игнорировать файлы Yarn
+yarn-error.log
+.yarn/*
