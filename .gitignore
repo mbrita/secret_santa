@@ -1,10 +1,24 @@
-# Игнорировать папку node_modules
-node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Игнорировать файлы PnP
-.pnp.loader.mjs
-.pnp.cjs
+node_modules
+dist
+dist-ssr
+*.local
 
-# Игнорировать файлы Yarn
-yarn-error.log
-.yarn/*
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
