@@ -1,7 +1,7 @@
-import { Navigate, Route, Routes } from "react-router-dom"
-import App from "../App"
+import { Navigate, Route, Routes } from 'react-router-dom';
+import App from '../App';
 
-import { HomePage } from "../pages/homePage/HomePage"
+import { HomePage } from '../pages/homePage/HomePage';
 
 export const Router = () => {
   return (
@@ -12,5 +12,5 @@ export const Router = () => {
         <Route path="*" element={<Navigate to="/" />} />
       </Route>
     </Routes>
-  )
-}
+  );
+};
