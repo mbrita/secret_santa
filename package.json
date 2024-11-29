@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prettier:fix": "npx prettier . --write"
+    "prettier:fix": "prettier . --write"
   },
   "dependencies": {
     "antd": "^5.22.2",
