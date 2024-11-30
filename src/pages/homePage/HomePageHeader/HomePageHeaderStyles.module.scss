@@ -1,0 +1,49 @@
+.header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+.menu-container {
+  display: block;
+  @media (max-width: '900px') {
+    display: none;
+  }
+}
+.title-container .title {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: '20px 40px';
+}
+
+.button {
+  padding: 20px;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sidemenu {
+  display: none;
+  height: 40px;
+  margin-left: 20px;
+  @media (max-width: '900px') {
+    display: block;
+  }
+}
+.sidemenuImg {
+  height: 40px;
+}
